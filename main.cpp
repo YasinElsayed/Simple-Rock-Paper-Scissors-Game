@@ -63,7 +63,7 @@ void NameChoise(char choise){ // Function to print the name of a choice
     }
 }
 
-void Winner(char computer, char player){ // Function to determine and print the winner
+void Winner(char player, char computer){ // Function to determine and print the winner
     switch (player) // Switch based on player's choice
     {
         case 'r': // If player chose Rock
